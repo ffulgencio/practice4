@@ -6,7 +6,7 @@ export default function ProfileInfo(props:{nombre:'', apellido:''}) {
     <div>
       <img
         className="avatar"
-        src="https://franchisematch.com/wp-content/uploads/2015/02/john-doe.jpg"
+        src="https://educa.org.do/wp-content/uploads/2022/04/ALAN-IMG_5845.png"
         alt=""
       />
       <div className="profile-info">
