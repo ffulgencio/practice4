@@ -9,8 +9,8 @@ export default function ProfileInfo() {
         alt=""
       />
       <div className="profile-info">
-        <h2>John Doe</h2>
-        <a href="#">john.doe@domain.com</a>
+        <h2>Ronny Geronimo</h2>
+        <a href="#">ronny.geronimo@domain.com</a>
       </div>
     </div>
   );
