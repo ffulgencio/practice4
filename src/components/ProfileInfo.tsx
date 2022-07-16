@@ -10,8 +10,9 @@ export default function ProfileInfo(props:{nombre:'', apellido:''}) {
         alt=""
       />
       <div className="profile-info">
-        <h2>{props.nombre}</h2>
+        <h2>{props.nombre}{props.apellido}</h2>
         <a href="#">john.doe@domain.com</a>
+      
       </div>
     </div>
   );
