@@ -5,12 +5,12 @@ export default function ProfileInfo() {
     <div>
       <img
         className="avatar"
-        src="https://franchisematch.com/wp-content/uploads/2015/02/john-doe.jpg"
+        src="https://educa.org.do/wp-content/uploads/2022/04/ALAN-IMG_5845.png"
         alt=""
       />
       <div className="profile-info">
-        <h2>Francis Fulgencio</h2>
-        <a href="#">john.doe@domain.com</a>
+        <h2>Alan Aquino</h2>
+        <a href="#">me@alanaquino.com</a>
       </div>
     </div>
   );
