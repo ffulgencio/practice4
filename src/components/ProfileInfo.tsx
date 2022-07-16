@@ -9,7 +9,7 @@ export default function ProfileInfo() {
         alt=""
       />
       <div className="profile-info">
-        <h2>John Doe</h2>
+        <h2>Francis Fulgencio</h2>
         <a href="#">john.doe@domain.com</a>
       </div>
     </div>
