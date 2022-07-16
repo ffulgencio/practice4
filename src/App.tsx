@@ -5,6 +5,7 @@ export default function App(){
     <div>
       <h1>User Profile Card</h1>
       <ProfileCard />
+
     </div>
   )
 }

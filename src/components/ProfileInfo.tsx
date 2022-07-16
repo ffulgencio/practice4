@@ -1,6 +1,7 @@
 import "./ProfileInfo.css";
 
-export default function ProfileInfo() {
+export default function ProfileInfo(props:{nombre:'', apellido:''}) {
+
   return (
     <div>
       <img
@@ -9,7 +10,7 @@ export default function ProfileInfo() {
         alt=""
       />
       <div className="profile-info">
-        <h2>Francis Fulgencio</h2>
+        <h2>{props.nombre}</h2>
         <a href="#">john.doe@domain.com</a>
       </div>
     </div>
