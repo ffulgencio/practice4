@@ -5,8 +5,8 @@ import './ProfileCard.css'
 export default function ProfileCard(){
     return(
         <div className="card">
-            <ProfileInfo nombre="Felipe" apellido="Pérez" />
-            <ProfileBio />
+            <ProfileInfo nombre="Ronny" apellido="Gerónimo" />
+            <ProfileBio  />
 
         </div>
     )
