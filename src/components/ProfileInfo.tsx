@@ -1,17 +1,18 @@
 import "./ProfileInfo.css";
 
-export default function ProfileInfo(props:{nombre:'', apellido:''}) {
+export default function ProfileInfo(props:any) {
+    const {nombre, apellido, urlImagen, correo} = props;
 
   return (
     <div>
       <img
         className="avatar"
-        src="https://franchisematch.com/wp-content/uploads/2015/02/john-doe.jpg"
+        src={urlImagen}
         alt=""
       />
       <div className="profile-info">
-        <h2>{props.nombre}</h2>
-        <a href="#">john.doe@domain.com</a>
+        <h2>{nombre} {apellido}</h2>
+        <a href="#">{correo}</a>
       </div>
     </div>
   );
