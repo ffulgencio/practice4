@@ -15,7 +15,7 @@ const users = [
 {
 
   nombre: "A",
-  apellido: "Gerónimo",
+  apellido: "Adames",
   correo: "ronnygeronimo@correo.com.do",
   telefono: "809-reac-js01",
   urlImagen: "https://img.freepik.com/foto-gratis/retrato-empresario-excitado-vestido-traje_171337-154.jpg?size=626&ext=jpg&ga=GA1.2.1740654145.1658219784",
@@ -25,7 +25,7 @@ const users = [
 {
 
   nombre: "B",
-  apellido: "Gerónimo",
+  apellido: "Bueno",
   correo: "ronnygeronimo@correo.com.do",
   telefono: "809-reac-js01",
   urlImagen: "https://img.freepik.com/foto-gratis/retrato-empresario-excitado-vestido-traje_171337-154.jpg?size=626&ext=jpg&ga=GA1.2.1740654145.1658219784",
@@ -35,7 +35,7 @@ const users = [
 {
 
   nombre: "C",
-  apellido: "Gerónimo",
+  apellido: "Cabrera",
   correo: "ronnygeronimo@correo.com.do",
   telefono: "809-reac-js01",
   urlImagen: "https://img.freepik.com/foto-gratis/retrato-empresario-excitado-vestido-traje_171337-154.jpg?size=626&ext=jpg&ga=GA1.2.1740654145.1658219784",
@@ -44,8 +44,8 @@ const users = [
 },
 {
 
-  nombre: "D",
-  apellido: "Gerónimo",
+  nombre: "Dario",
+  apellido: "Diaz",
   correo: "ronnygeronimo@correo.com.do",
   telefono: "809-reac-js01",
   urlImagen: "https://img.freepik.com/foto-gratis/retrato-empresario-excitado-vestido-traje_171337-154.jpg?size=626&ext=jpg&ga=GA1.2.1740654145.1658219784",
@@ -54,8 +54,8 @@ const users = [
 },
 {
 
-  nombre: "Ronny",
-  apellido: "Gerónimo",
+  nombre: "Eddy",
+  apellido: "Estevez",
   correo: "ronnygeronimo@correo.com.do",
   telefono: "809-reac-js01",
   urlImagen: "https://img.freepik.com/foto-gratis/retrato-empresario-excitado-vestido-traje_171337-154.jpg?size=626&ext=jpg&ga=GA1.2.1740654145.1658219784",
@@ -66,11 +66,11 @@ const users = [
 ]
 
 export default function App(props:any){
- const user1 = users[0];
- const user2 = users[1];
- const user3 = users[2];
- const user4 = users[3];
- const user5 = users[4];
+//  const user1 = users[0];
+//  const user2 = users[1];
+//  const user3 = users[2];
+//  const user4 = users[3];
+//  const user5 = users[4];
 
  
   //return (
@@ -90,14 +90,20 @@ export default function App(props:any){
    return (
      <div>
        <h1>User Profile Card</h1>
-       <ProfileCard {...user1}/>
+       {/* <ProfileCard {...user1}/>
        <ProfileCard {...user2}/>
        <ProfileCard {...user3}/>
        <ProfileCard {...user4}/>
-       <ProfileCard {...user5}/>
-         
+       <ProfileCard {...user5}/> */
+       
+      //  users.map(user => console.log(user))
+      
+      users.map(user => (<ProfileCard {...user}/>))
+
+       }
+
           </div>
-  )
+  );
 
 
 
